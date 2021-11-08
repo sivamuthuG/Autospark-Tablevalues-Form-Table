@@ -91,6 +91,8 @@ $(document).ready(function() {
 
 });
 
+
+
 function splitFormDatas(formData) {
 
     var splitArray = formData.split('&');
@@ -152,6 +154,32 @@ function validateBuildForm() {
 
 }
 
+function selectServerRatio(){
+    var serverSelection = testRunForm.serverSelection;
+
+    if(serverSelection.value === 'local')
+    {
+        serverLocalValue();
+    }
+    else
+    {
+        serverPreValue();    
+    }
+}
+
+function serverLocalValue()
+{
+    const tableBody = document.getElementById('selectserver');
+    let option = '<option class="la-name">projects.localzoho.com</option><option class="la-name">projectsautomation.localzoho.com</option><option class="la-name">projectapi.localzoho.com</option>';
+    tableBody.innerHTML = option;
+}
+
+function serverPreValue()
+{
+    const tableBody = document.getElementById('selectserver');
+    let option = '<option class="la-name">projects.zoho.com</option><option class="la-name">projectsautomation.zoho.com</option><option class="la-name">projectapi.zoho.com</option>';
+    tableBody.innerHTML = option;
+}
 
 function validateRunForm() {
 
@@ -161,12 +189,20 @@ function validateRunForm() {
 
     let moName = testRunForm.moduleName;
 
+    let serverNamevalue = testRunForm.serverName;
+
     if (builName.value.length <= 0) {
 
         builName.focus();
         return false;
 
-    } else if (teName.value.length <= 0) {
+    } 
+    else if (serverNamevalue.value === null){
+        
+        serverNamevalue.focus();
+        return false;
+
+    }else if (teName.value.length <= 0) {
 
         teName.focus();
         return false;
