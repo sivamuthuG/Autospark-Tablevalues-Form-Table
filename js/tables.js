@@ -212,7 +212,7 @@ var buildData = [{
 
 var testRunData = [{
         "testerName": "Tester1",
-        "domain": "http//www.demo.com",
+        "domain": "projects.localzoho.com",
         "machine": "Windows",
         "no_of_browser	": 4,
         "buildName": "Demo",
@@ -220,7 +220,7 @@ var testRunData = [{
         "testper": "10%",
     }, {
         "testerName": "Tester1",
-        "domain": "http//www.demo.com",
+        "domain": "projects.localzoho.com",
         "machine": "Windows",
         "no_of_browser	": 4,
         "buildName": "Demo",
@@ -228,7 +228,7 @@ var testRunData = [{
         "testper": "10%",
     }, {
         "testerName": "Tester1",
-        "domain": "http//www.demo.com",
+        "domain": "projects.localzoho.com",
         "machine": "Windows",
         "no_of_browser	": 4,
         "buildName": "Demo",
@@ -236,219 +236,13 @@ var testRunData = [{
         "testper": "10%",
     }, {
         "testerName": "Tester1",
-        "domain": "http//www.demo.com",
+        "domain": "projects.localzoho.com",
         "machine": "Windows",
         "no_of_browser	": 4,
         "buildName": "Demo",
         "Priority": "Low",
         "testper": "10%",
-    }, {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
-    {
-        "testerName": "Tester1",
-        "domain": "http//www.demo.com",
-        "machine": "Windows",
-        "no_of_browser	": 4,
-        "buildName": "Demo",
-        "Priority": "Low",
-        "testper": "10%",
-    },
+    }
 ]
 
 var mchineData = [{
@@ -825,7 +619,7 @@ function loadTestRunData(data) {
     let tableHtml = '';
     for (let index = 0; index < data.length; index++) {
         let obj = data[index];
-        tableHtml += '<tr style="cursor: pointer;"><td>' + (index + 1) + '</td><td>' + obj.testerName + '</td><td>' + obj.domain + '</td><td>' + obj.machine + '</td><td>' + obj.no_of_browser + '</td><td>' + obj.buildName + '</td><td>' + obj.Priority + '</td><td>' + obj.testper + '</td></tr>';
+        tableHtml += '<tr style="cursor: pointer;"><td style = "min-width: 35px;">' + (index + 1) + '</td><td>' + obj.testerName + '</td><td style = "min-width: 180px;">' + obj.domain + '</td><td>' + obj.machine + '</td><td>' + obj.no_of_browser + '</td><td>' + obj.buildName + '</td><td>' + obj.Priority + '</td><td>' + obj.testper + '</td></tr>';
     }
     tableBody.innerHTML = tableHtml;
 }
@@ -915,14 +709,15 @@ function insertRunRow(runTableValue)
     // new_row.cells[0].innerHTML ='<input class=" bulk-select form-check-input" type="checkbox" value="" id="flexCheckDefault">';
     new_row.cells[0].innerText = len;
     new_row.cells[1].innerText = runTableValue.testerName;
-    new_row.cells[3].innerText = runTableValue.domain;
-    new_row.cells[4].innerText = runTableValue.machine;
-    new_row.cells[5].innerText = runTableValue.noBrowsers;
-    new_row.cells[6].innerText = runTableValue.buildName;
-    new_row.cells[7].innerText = runTableValue.priority;
+    new_row.cells[2].innerText = runTableValue.serverName;
+    new_row.cells[3].innerText = runTableValue.machine;
+    new_row.cells[4].innerText = runTableValue.noBrowsers;
+    new_row.cells[5].innerText = runTableValue.buildName;
+    new_row.cells[6].innerText = runTableValue.priority;
     
     x.appendChild(new_row);
 }
+
 
 $(document).ready(function() {
 
