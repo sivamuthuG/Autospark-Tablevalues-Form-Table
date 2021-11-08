@@ -177,7 +177,7 @@ function serverLocalValue()
 function serverPreValue()
 {
     const tableBody = document.getElementById('selectserver');
-    let option = '<option class="la-name">projects.zoho.com</option><option class="la-name">projectsautomation.zoho.com</option><option class="la-name">projectapi.zoho.com</option>';
+    let option = '<option class="la-name">preprojects.zoho.com</option>';
     tableBody.innerHTML = option;
 }
 
