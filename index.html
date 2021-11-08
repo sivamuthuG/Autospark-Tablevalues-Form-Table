@@ -378,12 +378,28 @@
                                         <label class="text-danger my-2" style="font-size: 13px;">Tester Name</label>
                                         <input type="text" name="testerName" class="form-control form-control-sm inputBox-temp " id="testerName" placeholder="Enter the Tester Name">
                                     </div>
+                                    <div class="row " style="width: 660px;">
+                                        <label class="text-danger build-form-lable my-3">Server Selection</label>
+                                        <div class="col-2">
+                                            <div class="form-check form-check-inline ">
+                                                <input class="form-check-input" type="radio" name="serverSelection" id="inlineRadio1" onclick="selectServerRatio()" value="local">
+                                                <label class="form-check-label build-form-font" for="inlineRadio1">Local</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="serverSelection" id="inlineRadio2" onclick="selectServerRatio()"  value="pre">
+                                                <label class="form-check-label build-form-font" for="inlineRadio1">Pre</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="mb-3">
-                                        <label class="text-danger my-2" style="font-size: 13px;">Select Domain</label>
-                                        <select class="form-select form-select-sm inputBox-temp" name="domain">
-											<option class="la-name">Domain</option>
+                                        <label class="text-danger my-2" style="font-size: 13px;">Select Server</label>
+                                        <select class="form-select form-select-sm inputBox-temp" name="serverName" id="selectserver">
+											
 										</select>
                                     </div>
+
                                     <div class="mb-3">
                                         <label class="text-danger my-2" style="font-size: 13px;">Select Machine</label>
                                         <select class="form-select form-select-sm inputBox-temp" name="machine">
@@ -406,7 +422,11 @@
                                         <div class="col-md-6 col-sm-12">
                                             <div class="form-group">
                                                 <label class="text-danger my-2" style="font-size: 13px;">Module Name</label>
-                                                <input type="text" class="form-control form-control-sm" name="moduleName" style="width: 320px;" id="moduleName" placeholder="Enter the Module Name">
+                                                <select class="form-select form-select-sm inputBox-temp" name="moduleName" style="width: 320px;" id="moduleName">
+                                                    <option class="la-name">Milestone</option>
+                                                    <option class="opt-font">Bug</option>
+                                                    <option class="opt-font">Task</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-12 mb-3" style="width: 320px;">
@@ -997,11 +1017,11 @@
                                     <tr style="position: fixed; background: #eae9e9;">
                                         <th scope="col" style="min-width: 75px;">Id</th>
                                         <th scope="col" style="min-width: 160px;">Tester Name</th>
-                                        <th scope="col" style="min-width: 375px;">Domain</th>
-                                        <th scope="col" style="min-width: 168px;">Machine</th>
-                                        <th scope="col" style="min-width: 220px;">No.OF.Browser</th>
+                                        <th scope="col" style="min-width: 435px;">Domain</th>
+                                        <th scope="col" style="min-width: 170px;">Machine</th>
+                                        <th scope="col" style="min-width: 160px;">No.OF.Browser</th>
                                         <th scope="col" style="min-width: 135px;">Build Name</th>
-                                        <th scope="col" style="min-width: 105px;">Priority</th>
+                                        <th scope="col" style="min-width: 120px;">Priority</th>
                                         <th scope="col"style="min-width: 150px;">Test%</th>
                                     </tr>
                                 </thead>
@@ -1010,7 +1030,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  
 
             <!-- LinkView -->
             <div id='link' class="bodySection linkview">
