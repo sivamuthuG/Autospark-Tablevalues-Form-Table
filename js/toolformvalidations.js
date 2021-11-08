@@ -31,7 +31,7 @@ $(document).ready(function() {
 
             $("#bugaddForm").trigger("reset");
 
-            insRow(myobj);
+            isertBugRow(myobj);
 
             //console.log(bugTableValue);
 
@@ -48,11 +48,14 @@ $(document).ready(function() {
 
             $("#testRunAddForm").trigger("reset");
 
+            insertRunRow(myobj);
+
             var stringvalue = JSON.stringify(myobj);
 
             console.log(stringvalue);
             
-            //postTestValue(stringvalue);
+           
+            postTestValue(stringvalue);
 
         }
 
