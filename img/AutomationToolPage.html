@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://drive.google.com/uc?id=1cLyNJVI-nMhjhGvqAFOYwl32rNv6SAv_">
+	<link rel="stylesheet" href="https://drive.google.com/uc?id=1XD1AKfjCzQoRwtSp2pe7z1ceOa-gsvqV">
+	<script src="https://drive.google.com/uc?id=10z1lrnob_uAY-5Lo8fsTK4JpoH71gisr"></script>
+	<script src="https://drive.google.com/uc?id=1mB3fGbae122HTmZGO-8XZX1onOroVtj-" type="text/javascript"></script>
+	<title>Automation Tool</title>
+	<script>
+
+	</script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<img src="D:\AutomationReport_index\Images\projects-logo.png" style="width: 40px; margin: 10px 20px">
+			</div>
+			<div class="name">
+				<p class="nameText">AutomationTool</p>
+			</div>
+			<div class="dropdown" id="drop">
+  				<button class="dropbtn">TEST TYPE</button>
+  				<div class="dropdown-content">
+  					<a href="#">Manual Test</a>
+  					<a href="#">Automation Test</a>
+  				</div>
+			</div>
+		</div>	
+
+		<!-- BODY CONTENT -->
+		<div class="toolBody">
+			<div class="toolmenu">
+				<div class="dash" id="dash-Id">
+					<i class="fa fa-windows dashboardIcon" aria-hidden="true"></i>
+					<p class="dashtext">DashBoard</p>
+				</div>
+				<div class="report" id="report-Id">
+					<i class="fa fa-line-chart reportIcon" id="repicon" aria-hidden="true"></i>
+					<p class="reporttext">Report</p>
+				</div>
+				<div class="build" id="buildicon-Id">
+					<i class="fa fa-pencil-square-o buildIcon" aria-hidden="true"></i>
+					<p class="buildtext">CodeReview</p>
+				</div>
+				<!-- <div class="code" id="codeicon-Id">
+					<i class="fa fa-pencil-square-o codeIcon" aria-hidden="true"></i>
+					<p class="codetext">CodeReview</p>
+				</div> -->
+			</div>
+			<div class="dashView" id="dash-Id">
+				<div class="testCount">
+					<div class="testCases">
+						<div class="card testcases">
+							<p class="totaltext"><b>TOTAL TEST CASES</b></p>
+						</div>
+						<div class="testIcone card">
+							<p class="counttext1"><b>01</b></p>		
+						</div>
+					</div>
+				</div>
+				<div class="testCount">
+					<div class="testCases">
+						<div class="card testcases">
+							<p class="totaltext"><b>PASSED TEST CASES</b></p>
+						</div>
+						<div class="testIcone card">	
+							<p class="counttext2"><b>01</b></p>	
+						</div>
+					</div>
+				</div>
+				<div class="testCount">
+					<div class="testCases">
+						<div class="card testcases">
+							<p class="totaltext"><b>FAILLED TEST CASES</b></p>
+						</div>
+						<div class="testIcone card">
+							<p class="counttext3"><b>00</b></p>		
+						</div>
+					</div>
+				</div>
+				<div class="testPass">
+					<div class="testpasscount">
+						<div class="card testpassed">
+							<p class="totaltext"><b>ADD TEST CASES</b></p>
+						</div>
+						<div class="testIcone1 card">
+							<p class="counttext4"><b>+</b></p>		
+						</div>
+					</div>
+				</div>
+				<div class="environment">
+					<div class="card environmentcard">
+						<div class="cad projectname">
+							<p class="protext">Test Report</p>
+						</div>
+						<div>
+							<table>
+								<tr>
+    								<th>Param</th>
+    								<th>Value</th>
+  								</tr>
+  								<tr>
+    								<td>No.Of.Test Casses</td>
+    								<td>01</td>
+  								</tr>
+  								<tr>
+    								<td>URL</td>
+    								<td>LocalProjects</td>
+  									</tr>
+  								<tr>
+    								<td>Passed cases</td>
+    								<td>01</td>
+  								</tr>
+  								<tr>
+    								<td>Test</td>
+    								<td>Pass</td>
+  								</tr>
+							</table>
+						</div>	
+					</div>
+				</div>
+				<div class="summary">
+					<div class="card summarycard">
+						<div class="cad taskname">
+							<p class="protext">Passed Case Detatils</p>
+						</div>		
+						<div>
+							<table>
+								<tr>
+    								<th>Case Name </th>
+    								<th>Value</th>
+  								</tr>
+  								<tr>
+    								<td>Case Name</td>
+    								<td>Pass</td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="mileStone">
+					<div class="card mileStonecard">	
+						<div class="cad bugname">
+							<p class="protext">Failled Cases Detatils</p>
+						</div>	
+						<div>
+							<table>
+								<tr>
+    								<th>Case Name </th>
+    								<th>Value</th>
+  								</tr>
+  								<tr>
+    								<td>Case Name</td>
+    								<td>Fail</td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="Row3">
+					<div class="task">
+						<div class="card taskcard">	
+							<div class="cad reportname">
+							<p class="envtext1">Environment</p>
+						</div>
+						<div>
+				<table>
+					<tr>
+    					<th>Param</th>
+    					<th>Value</th>
+  					</tr>
+  					<tr>
+    					<td>OS</td>
+    					<td>Linux</td>
+  					</tr>
+  					<tr>
+    					<td>URL</td>
+    					<td>LocalProjects</td>
+  					</tr>
+  					<tr>
+    					<td>Module</td>
+    					<td>Security</td>
+  					</tr>
+				</table>
+			</div>
+						</div>
+					</div>
+					<div class="bug">
+						<div class="card bugcard">	
+							<div class="cad milestonename">
+								<p class="envtext1">MileStone Report</p>
+							</div>
+							<div>
+								<img src="D:\AutomationReport_index\Images\ml.png" style="width: 335px;margin-left: 45px; margin-top: 30px;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reportview" id="rep-Id">
+				<div class="cardcontain">
+					<div class="reportheder">
+						<div class="repname">
+							<h1 class="repnameFont">Module Name</h1>
+							<div class="reptype">
+								<p>Report Type ▼</p>
+							</div>
+						</div>
+					</div>
+					<div class="repBody">
+						<div class="reptd">
+							<div>
+							<table>
+								<tr>
+									<th style="text-align: center;">CASE NUMBER</th>
+    								<th style="text-align: center;">NAME</th>
+    								<th style="text-align: center;">DESCRIPTION</th>
+    								<th style="text-align: center;">PASS</th>
+    								<th style="text-align: center;">FAIL</th>
+  								</tr>
+  								<tr>
+  									<td>01</td>
+    								<td>Case 1</td>
+    								<td>Create Title only</td>
+    								<td style="text-align: center;">✔</td>
+    								<td style="text-align: center;">-</td>
+  								</tr>
+  								<tr>
+  									<td>02</td>
+    								<td>Case 2</td>
+    								<td>Title And Owner Name</td>
+    								<td style="text-align: center;">-</td>
+    								<td style="text-align: center;">✖</td>
+  								</tr>
+  								<tr>
+  									<td>03</td>
+    								<td>Case 3</td>
+    								<td>Title with Start Date</td>
+    								<td style="text-align: center;">✔</td>
+    								<td style="text-align: center;">-</td>
+  								</tr>
+  								<tr>
+  									<td>04</td>
+    								<td>Case 4</td>
+    								<td>Title With Start And End date</td>
+    								<td style="text-align: center;">✔</td>
+    								<td style="text-align: center;">-</td>
+  								</tr>
+							</table>
+						</div>	
+						</div>
+					</div>
+				</div>
+				<div class="chartContain">
+					<div class="passPer">
+						<div class="perChart">
+							<div class="pastitle">
+								<p style="margin-top:15px;color: #0ab999;"><b>PIE CHART REPORT</b></p>
+							</div>
+							<div class="pasline"></div>	
+							<div class="pieimg">
+								<img src="D:\AutomationReport_index\Images\pie3.png"style="width: 234px;margin-left: 155px;">
+							</div>
+						</div>
+					</div>
+					<div class="failper">
+						<div class="perChart1">
+							<div class="pastitle">
+								<p style="margin-top:15px;color: #0ab999;"><b> BAR CHART REPORT</b></p>
+							</div>
+							<div class="pasline"></div>
+							<div class="pieimg">
+								<img src="D:\AutomationReport_index\Images\bar.png"style="width: 180px;margin-left: 175px;margin-top: 30px;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="buildview" id="build-Id">
+				<div class="codeBox">
+					<div class="uploadBox">
+						<div class="drag">
+							<img src="D:\AutomationReport_index\Images\drag.jpg" style="width: 478px;margin-left:185px;margin-top:75px;">
+						</div>
+					</div>
+					<div class="upBtn">
+						<button class="btn">Upload Your Code</button>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="codeview" id="code-Id">
+				<p>code</p>
+			</div> -->
+		</div>
+	</div>
+</body>
+</html>
