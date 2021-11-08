@@ -889,7 +889,7 @@ function getId(element) {
 
 }
 
-function insRow(bugTableValue)
+function isertBugRow(bugTableValue)
 {
     console.log(bugTableValue);
     var x=document.getElementById('bugTableData');
@@ -903,6 +903,24 @@ function insRow(bugTableValue)
     new_row.cells[5].innerText = bugTableValue.autoSource;
     new_row.cells[6].innerText = bugTableValue.bugAssinee;
 
+    x.appendChild(new_row);
+}
+
+function insertRunRow(runTableValue)
+{
+    console.log(runTableValue);
+    var x=document.getElementById('runTableData');
+    var new_row = x.rows[1].cloneNode(true);
+    var len = x.rows.length + 1;
+    // new_row.cells[0].innerHTML ='<input class=" bulk-select form-check-input" type="checkbox" value="" id="flexCheckDefault">';
+    new_row.cells[0].innerText = len;
+    new_row.cells[1].innerText = runTableValue.testerName;
+    new_row.cells[3].innerText = runTableValue.domain;
+    new_row.cells[4].innerText = runTableValue.machine;
+    new_row.cells[5].innerText = runTableValue.noBrowsers;
+    new_row.cells[6].innerText = runTableValue.buildName;
+    new_row.cells[7].innerText = runTableValue.priority;
+    
     x.appendChild(new_row);
 }
 
