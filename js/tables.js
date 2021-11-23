@@ -740,7 +740,7 @@ $(document).ready(function() {
     function getValue(){
         
         $.ajax({ 
-            url: 'http://192.168.10.119:8081/api/autospark/getreports',
+            url: '',
             data: "",
             dataType: "json",
             success: function(data){
