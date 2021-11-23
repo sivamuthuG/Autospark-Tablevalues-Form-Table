@@ -65,7 +65,7 @@ $(document).ready(function() {
     function postTestValue(myObj){
 
         $.ajax({
-            url:'http://192.168.10.119:8081/api/autospark/run/module/',
+            url:'',
             data: myObj,
             dataType: "json",
             contentType: "application/json",
